@@ -26,6 +26,8 @@ package com.bridgelabz;
             System.out.print("\nIn order : ");
             obj.inorder();
             obj.size();
+
+            obj.search(63);
         }
 
     }
