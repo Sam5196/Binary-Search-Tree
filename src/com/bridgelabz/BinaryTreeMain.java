@@ -1,5 +1,4 @@
 package com.bridgelabz;
-import java.util.Scanner;
     public class BinaryTreeMain {
         public static void main(String[] args) {
 
@@ -8,6 +7,16 @@ import java.util.Scanner;
             obj.insert(56);
             obj.insert(30);
             obj.insert(70);
+            obj.insert(22);
+            obj.insert(40);
+            obj.insert(60);
+            obj.insert(95);
+            obj.insert(11);
+            obj.insert(65);
+            obj.insert(3);
+            obj.insert(16);
+            obj.insert(63);
+            obj.insert(67);
 
             System.out.print("\n Binary Search Tree ");
             System.out.print("\nPost order : ");
@@ -16,7 +25,7 @@ import java.util.Scanner;
             obj.preorder();
             System.out.print("\nIn order : ");
             obj.inorder();
-
+            obj.size();
         }
-    }
 
+    }
